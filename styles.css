@@ -23,6 +23,10 @@ body {
   background: var(--main-green);
 }
 
+p {
+    padding-top: 20px;
+}
+
 button {
   height: 100%;
   border: none;
