@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  />
+  <link rel="stylesheet" href="/styles.css">
+  <body>
+    <div class="wrapper">
+      <header>Todo List</header>
+      <div class="inputField">
+        <input type="text" placeholder="Enter new task" />
+        <button type="button" onclick="addToDo(toDos);"><i class="fas fa-plus"></i></button>
+      </div>
+      <ul class="todoList">
+        <!-- <li class="done">
+          Todo Item 1 (Done example)
+          <span class="editBtn" onclick="editToDo(this,toDos)"><i class="fa fa-edit"></i></span>
+          <span class="trashBtn" onclick="deleteToDo(toDos);"> <i class="fa fa-trash"></i></span> 
+        </li>
+        <li>
+          Todo Item 2
+          <span class="editBtn" onclick="editToDo(this,toDos)"><i class="fa fa-edit"></i></span>
+          <span class="trashBtn" onclick="deleteToDo(toDos);"> <i class="fa fa-trash"></i></span> 
+        </li> -->
+      </ul>
+      <div class="footer">
+        <span class="alert">You have 0 pending tasks.</span>
+        <button type="button" onclick="clearDoneItems(toDos);">Clear Done</button>
+      </div>
+    </div>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
